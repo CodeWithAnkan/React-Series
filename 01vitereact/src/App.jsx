@@ -1,7 +1,14 @@
+import Chai from "./chai"
+
 function App() {
   
-  return ( 
-    <h1>Chai aur React with Vite | Ankan Chatterjee</h1>
+  return ( //bina div ke ek hi element return hosakta hai
+    <>
+    <Chai/>
+    <p>test para</p>
+    <h1>Chai aur react</h1>
+    </>
+    
   )
 }
 
