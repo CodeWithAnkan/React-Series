@@ -16,8 +16,7 @@ function Cards({username, header="Visit me"}) { // Can be used props and props.u
                     <h2 className="text-xl font-semibold tracking-wide">{header}</h2>
                 </div>
                 <p className="text-gray-300">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio tempora ipsum soluta
-                    amet
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 </p>
             </div>
         </div>
