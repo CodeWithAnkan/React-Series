@@ -9,8 +9,11 @@ function App() {
   // let counter = 5;
   const addValue = () => {
     if (counter <= 19){
-    counter = counter + 1; // counter is updated but UI is not updated. Here React comes in
-    setCounter(counter) // Use of React
+    // counter = counter + 1; // counter is updated but UI is not updated. Here React comes in
+    setCounter((prevCounter)=> prevCounter + 1) // Use of React
+    setCounter((prevCounter)=> prevCounter + 1) // Use of React
+    setCounter((prevCounter)=> prevCounter + 1) // Use of React
+    setCounter((prevCounter)=> prevCounter + 1) // Use of React
     }
   }
   const removeValue = () => {
